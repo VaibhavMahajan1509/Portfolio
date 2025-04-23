@@ -2,19 +2,19 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Vaibhav Mahajan | Front-End Developer</title>
   <link rel="stylesheet" href="styles.css" />
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
 </head>
-
 <body>
 
   <!-- Header -->
   <header>
     <div class="container">
       <h1>Vaibhav Mahajan</h1>
-      <nav>
+      <div class="hamburger" onclick="toggleMenu()">&#9776;</div>
+      <nav id="navMenu">
         <ul>
           <li><a href="#about">About</a></li>
           <li><a href="#projects">Projects</a></li>
@@ -24,93 +24,61 @@
       </nav>
     </div>
   </header>
-  
+
   <!-- About Section -->
   <section id="about">
     <h2>About Me</h2>
-    <p>Hello! I'm <strong>Vaibhav Mahajan</strong>, a passionate <strong>Front-End Developer</strong> with a keen interest in building <strong>responsive, interactive, and user-friendly web applications</strong>. I specialize in <strong>HTML</strong>, <strong>CSS</strong>, <strong>JavaScript</strong>, and <strong>React</strong>, always striving to create seamless and engaging user experiences.</p>
-
-    <p>I hold a <strong>Bachelor's degree in Computer Applications (BCA)</strong> and am currently in the final year of my <strong>Master's in Computer Applications (MCA)</strong>. My journey into web development started with personal projects, where I discovered my love for <strong>UI/UX design</strong> and <strong>front-end technologies</strong>. Since then, I've worked on various academic and internship projects that have sharpened my skills in crafting <strong>intuitive and dynamic user interfaces</strong>.
-    </p>
-
-    <p>As I continue to grow in the field, I am actively seeking <strong>opportunities to contribute, collaborate, and expand my expertise</strong> in front-end development. I'm excited about <strong>learning new technologies</strong> and working on <strong>real-world challenges</strong> that push the boundaries of what can be achieved in web development.</p>
+    <p>Hello! I'm <strong>Vaibhav Mahajan</strong>, a passionate <strong>Front-End Developer</strong> with a strong foundation in HTML, CSS, JavaScript, and React. I specialize in building responsive and user-friendly web interfaces that provide seamless user experiences. With hands-on experience in Bootstrap, Framer Motion, Git, and GitHub, I bring both technical skills and creativity to every project. Currently, I am pursuing my Master's in Computer Applications and interning as a front-end developer at Manishit Technology Pvt Ltd. I am eager to contribute, learn, and grow in a collaborative development environment.</p>
   </section>
 
   <!-- Projects Section -->
   <section id="projects">
     <h2>My Projects</h2>
 
-    <!-- Food Ordering Website (React) -->
-    <div class="project">
-      <h3>Food Ordering Website UI</h3>
-      <p>A sleek React-based food ordering UI with features like add-to-cart and total bill display.</p>
-      <ul>
-        <li>Used React components and props</li>
-        <li>Cart functionality with real-time updates</li>
-        <li>Clean design and responsive layout</li>
-      </ul>
-      <a href="https://food-zone-beige.vercel.app/" target="_blank" rel="noopener noreferrer">Live Demo</a>
-      <a href="https://github.com/VaibhavMahajan1509/FoodZone" target="_blank" rel="noopener noreferrer">Source Code</a>
+   <div class="project">
+      <h3>Food Zone</h3>
+      <p>Online food ordering app with cart and routing functionality, built in React.</p>
+      <a href="https://food-zone-beige.vercel.app/" target="_blank">Live Demo</a>
+      <a href="https://github.com/VaibhavMahajan1509/FoodZone" target="_blank">GitHub</a>
     </div>
 
-     <!-- Expense Tracker -->
-     <div class="project">
-        <h3>Expense Tracker</h3>
-        <p>A responsive web application to track personal expenses. Built with HTML, CSS, and JavaScript.</p>
-        <ul>
-          <li>Dynamic entry for adding/editing/deleting expenses</li>
-          <li>Responsive design across devices</li>
-          <li>Integrated interactive charts with Recharts to visualize spending trends</li>
-          <li>Designed for a smooth and intuitive user experience on all devices</li>
-        </ul>
-        <a href="https://expense-tracker-seven-xi-58.vercel.app/" target="_blank" rel="noopener noreferrer">Live Demo</a>
-        <a href="https://github.com/VaibhavMahajan1509/Expense_Tracker" target="_blank" rel="noopener noreferrer">Source Code</a>
+    <div class="project">
+        <h3>Expense Tracker App</h3>
+        <p>React-based tracker app with Firebase login, Framer Motion, dashboard, and dark mode.</p>
+        <a href="https://expensetrackerauth.vercel.app/" target="_blank">Live Demo</a>
+        <a href="https://github.com/VaibhavMahajan1509/ExpenseTrackerAuth" target="_blank">GitHub</a>
       </div>
 
-    </section>
+  </section>
 
+  <!-- Resume Section -->
+  <section id="resume" class="resume-download">
+    <h3>Download My Resume</h3>
+    <p>Click below to get a PDF version of my resume.</p>
+    <a href="resumev.pdf" download class="resume-btn">Download Resume</a>
+  </section>
 
-    <section id="resume" class="resume-download">
-      <h3>Download My Resume</h3>
-      <p>Click below to get a PDF version of my resume.</p>
-      <a href="resumev.pdf" download class="resume-btn">Download Resume</a>
-    </section>
-    
-
- <!-- Contact Section -->
-<section id="contact">
+  <!-- Contact Section -->
+  <section id="contact">
     <h2>Contact Me</h2>
-    <p>If you're looking to connect or discuss any opportunities, feel free to reach out via email or connect with me on my social profiles. I'm eager to learn, collaborate, and grow as a front-end developer!</p>
-  
     <div class="contact-info">
-      <p><strong>Email:</strong> 
-        <a href="mailto:vaibhav.mahajan1509@gmail.com">vaibhav.mahajan1509@gmail.com</a>
-      </p>
-  
-      <p><strong>Phone:</strong> 
-        <a href="tel:+916267090692">+91 62670 90692</a>
-      </p>
-  
-      <p><strong>LinkedIn:</strong> 
-        <a href="https://www.linkedin.com/in/vaibhav-mahajan-702444269/" target="_blank" rel="noopener noreferrer">
-          linkedin.com/in/vaibhav-mahajan-702444269
-        </a>
-      </p>
-  
-      <p><strong>GitHub:</strong> 
-        <a href="https://github.com/VaibhavMahajan1509" target="_blank" rel="noopener noreferrer">
-          github.com/VaibhavMahajan1509
-        </a>
-      </p>
+      <p><strong>Email:</strong> <a href="mailto:vaibhav.mahajan1509@gmail.com">vaibhav.mahajan1509@gmail.com</a></p>
+      <p><strong>Phone:</strong> <a href="tel:+916267090692">+91 62670 90692</a></p>
+      <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/vaibhav-mahajan-702444269/" target="_blank">linkedin.com/in/vaibhav-mahajan-702444269</a></p>
+      <p><strong>GitHub:</strong> <a href="https://github.com/VaibhavMahajan1509" target="_blank">github.com/VaibhavMahajan1509</a></p>
     </div>
   </section>
-  
+
   <!-- Footer -->
   <footer>
     <p>&copy; 2025 Vaibhav Mahajan. All rights reserved.</p>
   </footer>
 
+  <!-- JS -->
+  <script>
+    function toggleMenu() {
+      document.querySelector('#navMenu ul').classList.toggle('show');
+    }
+  </script>
 </body>
 </html>
-
-
